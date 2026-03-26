@@ -1,0 +1,33 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.calculadora {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.calculadora input {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: right;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.calculadora button {
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.galeria-img {
+    width: 100% !important;
+    height: 250px !important;
+    object-fit: cover !important;
+}
